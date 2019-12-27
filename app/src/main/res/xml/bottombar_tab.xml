@@ -1,0 +1,26 @@
+<tabs>
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/home"
+        title="Home"
+        activecolor="#0086ff"
+        inactivecolor="#323643"/>
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/flag"
+        title="My Goal"
+        activecolor="#0086ff"
+        inactivecolor="#323643" />
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/activity"
+        title="Report"
+        activecolor="#0086ff"
+        inactivecolor="#323643" />
+    <tab
+        id="@+id/tab_friends1"
+        icon="@drawable/settings"
+        title="Settings"
+        activecolor="#0086ff"
+        inactivecolor="#323643" />
+</tabs>

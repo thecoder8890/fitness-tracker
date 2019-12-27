@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Splash_ftActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_ft"
+        android:scaleType="center"
+        />
+
+    <ImageView
+        android:layout_above="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15.7dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_above="@+id/text1"
+        android:fontFamily="@font/verdanabold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fitness Track"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:letterSpacing="0.0625"
+        android:layout_marginBottom="8.7dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Be active, be healthy, be happy."
+        android:textSize="17.5sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poiretone_regular"
+        android:layout_alignParentBottom="true"
+        android:letterSpacing="0.0625"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32.3dp"/>
+
+</RelativeLayout>
